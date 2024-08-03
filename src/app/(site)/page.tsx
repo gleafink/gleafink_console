@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import React, { useEffect, useState } from "react"
@@ -11,8 +12,8 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { ScanEye } from "lucide-react"
 import Image from "next/image"
+import logo from "../../../public/images/GleafinkLogo.png"
 
 const useDebounce = (value: any, delay: any) => {
   const [debouncedValue, setDebouncedValue] = useState(value)
@@ -36,7 +37,7 @@ const HomePage = () => {
   const [isLoading, setIsLoading] = useState(false)
   const debouncedSearchQuery = useDebounce(searchQuery, 400)
 
-  const handleSearchChange = (event) => {
+  const handleSearchChange = (event: any) => {
     setSearchQuery(event.target.value)
   }
 
@@ -66,17 +67,16 @@ const HomePage = () => {
     <div className="flex justify-center items-center flex-col ">
       <div className="flex items-center justify-between w-[100%] px-12 h-16 border-b-2  fixed top-0 z-10 bg-white">
         <div>
-          <Image
-            src="/images/GleafinkLogo.png"
-            alt="text"
-            width={110}
-            height={60}
+          <img
+            src="https://gleafink-console.s3.ap-south-1.amazonaws.com/images/GleafinkLogo.png"
+            alt="Gleafink"
+            style={{ width: "122px" }}
           />
         </div>
         <div>Gleafink Console</div>
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" />
-          <AvatarFallback>CN</AvatarFallback>
+          {/* <AvatarImage src="https://github.com/shadcn.png" /> */}
+          <AvatarFallback>GK</AvatarFallback>
         </Avatar>
       </div>
       <div className=" flex flex-col items-end w-3/4 py-4 mt-16">
