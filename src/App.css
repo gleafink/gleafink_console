@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.content-container {
+  margin-top: 56px;
+
+  & .content-filter-input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* width: 100%; */
+    margin-inline: 8%;
+    padding-top: 20px;
+
+    input {
+      height: 30px;
+      font-size: 14px;
+      font-weight: 500;
+      width: 250px;
+    }
+  }
+}
+
+.products-grouping {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 8%;
+}
+
+.group-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  & .group-title-name {
+    text-wrap: nowrap;
+  }
+}
+.dividing-border {
+  width: 100%;
+  background-color: #282c34;
+  height: 0.5px;
+}
+
+.grouping-cards {
+  display: flex;
+  gap: 16px;
+}
