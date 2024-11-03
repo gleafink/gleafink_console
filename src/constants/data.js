@@ -40,6 +40,32 @@ export const data = {
       ],
     },
     {
+      name: "Data Analytics Products",
+      applications: [
+        {
+          name: "A/B Testing",
+          link: "",
+          description: "",
+          url: "htts://metainsights.gleafink.com",
+          icon: <PackagePlus />,
+        },
+        {
+          name: "Customer Segmentation",
+          link: "",
+          description: "",
+          url: "htts://metainsights.gleafink.com",
+          icon: <PackagePlus />,
+        },
+        {
+          name: "Talk to your Data",
+          link: "https://jarvis.gleafink.com/landing",
+          description: "",
+          url: "htts://metainsights.gleafink.com",
+          icon: <PackagePlus />,
+        },
+      ],
+    },
+    {
       name: "Security",
       applications: [
         {
@@ -89,32 +115,7 @@ export const data = {
         },
       ],
     },
-    {
-      name: "Data Science Products",
-      applications: [
-        {
-          name: "A/B Testing",
-          link: "",
-          description: "",
-          url: "htts://metainsights.gleafink.com",
-          icon: <PackagePlus />,
-        },
-        {
-          name: "Customer Segmentation",
-          link: "",
-          description: "",
-          url: "htts://metainsights.gleafink.com",
-          icon: <PackagePlus />,
-        },
-        {
-          name: "Talk to your Data",
-          link: "https://jarvis.gleafink.com/landing",
-          description: "",
-          url: "htts://metainsights.gleafink.com",
-          icon: <PackagePlus />,
-        },
-      ],
-    },
+
     {
       name: "Documentation",
       applications: [
