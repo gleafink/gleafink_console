@@ -10,9 +10,22 @@ const IndividualCard = ({ item }) => {
       href={item.link ? item.link : "#"}
     >
       <Card hoverable className="clickable-card">
-        <div>
-          {item.icon}
-          <div>{item.name}</div>
+        <div className="card-div-wrapper">
+          {console.log(item.icon, "test")}
+          {typeof item.icon === "string" ? (
+            <img
+              src={item.icon}
+              alt={item.name}
+              style={{ height: "40px", width: "40px" }}
+            />
+          ) : (
+            item.icon
+          )}
+
+          <div className="card-title">{item.name}</div>
+          {item.description && (
+            <div className="card-description">{item.description}</div>
+          )}
         </div>
       </Card>
     </a>

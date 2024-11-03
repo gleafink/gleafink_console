@@ -1,5 +1,25 @@
 .clickable-card {
-  width: 180px;
-  height: 120px;
+  width: 340px;
+  height: 220px;
   cursor: pointer;
+
+  & .card-div-wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .card-title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .card-description {
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(108, 106, 106);
+  }
 }
