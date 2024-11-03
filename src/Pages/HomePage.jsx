@@ -60,7 +60,7 @@ const HomePage = () => {
           <Input
             type="text"
             size="large"
-            placeholder="Search Service"
+            placeholder="Search Products"
             value={searchQuery}
             onChange={handleSearchChange}
           />
