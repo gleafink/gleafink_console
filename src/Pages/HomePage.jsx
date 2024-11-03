@@ -57,11 +57,6 @@ const HomePage = () => {
       <TopHeader />
       <div className="content-container">
         <div className="content-filter-input">
-          {/* <Input
-            placeholder="Filter Services"
-            value={searchQuery}
-            onChange={handleSearchChange}
-          /> */}
           <Input
             type="text"
             size="large"
@@ -74,19 +69,23 @@ const HomePage = () => {
           <p>Loading...</p>
         ) : (
           <div className="products-grouping">
-            {filteredCategories.map((item) => (
-              <div key={item.name} className="w-[100%] mb-4">
-                <div className="group-title">
-                  <h4 className="group-title-name">{item.name}</h4>
-                  <div className="dividing-border"></div>
+            {filteredCategories.length > 0 ? (
+              filteredCategories.map((item) => (
+                <div key={item.name} className="w-[100%] mb-4">
+                  <div className="group-title">
+                    <h4 className="group-title-name">{item.name}</h4>
+                    <div className="dividing-border"></div>
+                  </div>
+                  <div className="grouping-cards">
+                    {item.applications.map((item, index) => (
+                      <IndividualCard index={index} item={item} />
+                    ))}
+                  </div>
                 </div>
-                <div className="grouping-cards">
-                  {item.applications.map((item, index) => (
-                    <IndividualCard index={index} item={item} />
-                  ))}
-                </div>
-              </div>
-            ))}
+              ))
+            ) : (
+              <p>No Data Found</p>
+            )}
           </div>
         )}
       </div>
