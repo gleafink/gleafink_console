@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: console-ui-ingress
+  namespace: console
+#  annotations:
+#    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - console.gleafink.com
+      secretName: gleafink-tls-secret
+  rules:
+    - host: console.gleafink.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: console-ui-svc-clusterip
+                port:
+                  number: 80
