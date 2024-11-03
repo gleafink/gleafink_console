@@ -57,6 +57,11 @@
   }
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .products-grouping {
   display: flex;
   flex-direction: column;

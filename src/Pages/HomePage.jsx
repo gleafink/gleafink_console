@@ -78,7 +78,7 @@ const HomePage = () => {
                   </div>
                   <div className="grouping-cards">
                     {item.applications.map((item, index) => (
-                      <IndividualCard index={index} item={item} />
+                      <IndividualCard key={index} item={item} />
                     ))}
                   </div>
                 </div>

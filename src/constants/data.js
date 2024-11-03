@@ -17,12 +17,14 @@ export const data = {
       applications: [
         {
           name: "Metalnsights",
+          link: "https://metainsights.gleafink.com/LandingPage",
           description: "It is a insights tool for your Db.",
           url: "htts://metainsights.gleafink.com",
           icon: <ScanEye />,
         },
         {
           name: "DataSculpt",
+          link: "https://datasculpt.gleafink.com/",
           description:
             "It involves transforming raw data into a more usable and structured format.",
           url: "htts://metainsights.gleafink.com",
@@ -30,6 +32,7 @@ export const data = {
         },
         {
           name: "IntroSight",
+          link: "https://introsight.gleafink.com/#/build?query={%22limit%22:5000}",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <SquareChartGantt />,
@@ -41,12 +44,14 @@ export const data = {
       applications: [
         {
           name: "Vault",
+          link: "",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <Vault />,
         },
         {
           name: "Authoriation",
+          link: "",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <Fingerprint />,
@@ -58,6 +63,7 @@ export const data = {
       applications: [
         {
           name: "Airflow",
+          link: "",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <Fan />,
@@ -69,12 +75,14 @@ export const data = {
       applications: [
         {
           name: "MinIo",
+          link: "",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <Music3 />,
         },
         {
           name: "ArangoDB",
+          link: "",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <Database />,
@@ -86,18 +94,21 @@ export const data = {
       applications: [
         {
           name: "A/B Testing",
+          link: "",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <PackagePlus />,
         },
         {
           name: "Customer Segmentation",
+          link: "",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <PackagePlus />,
         },
         {
           name: "Talk to your Data",
+          link: "https://jarvis.gleafink.com/landing",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <PackagePlus />,
@@ -109,6 +120,7 @@ export const data = {
       applications: [
         {
           name: "Data Platform Docs",
+          link: "",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: <BookCheck />,

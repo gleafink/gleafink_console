@@ -4,12 +4,18 @@ import "../styles/IndividualCard.style.css"
 
 const IndividualCard = ({ item }) => {
   return (
-    <Card hoverable className="clickable-card">
-      <div>
-        {item.icon}
-        <div>{item.name}</div>
-      </div>
-    </Card>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={item.link ? item.link : "#"}
+    >
+      <Card hoverable className="clickable-card">
+        <div>
+          {item.icon}
+          <div>{item.name}</div>
+        </div>
+      </Card>
+    </a>
   )
 }
 
