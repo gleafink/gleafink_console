@@ -15,6 +15,7 @@ import DocsIcon from "../assets/images/docs.png"
 import airflowIcon from "../assets/images/airflow.png"
 import vaultIcon from "../assets/images/vault.svg"
 import MinioIcon from "../assets/images/minio.svg"
+import JarvisIcon from "../assets/images/jarvisbot.png"
 
 export const data = {
   categories: [
@@ -56,7 +57,7 @@ export const data = {
           description:
             "Experience the power of dialogue with your data! Jarvis AI tool transforms complex queries into clear insights, simplifying decision-making!",
           url: "htts://metainsights.gleafink.com",
-          icon: <PackagePlus />,
+          icon: JarvisIcon,
         },
         {
           name: "A/B Testing",
@@ -79,7 +80,7 @@ export const data = {
       applications: [
         {
           name: "Vault",
-          link: "vault.gleafink.com",
+          link: "https://vault.gleafink.com",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: vaultIcon,
@@ -110,7 +111,7 @@ export const data = {
       applications: [
         {
           name: "MinIo",
-          link: "minio.gleafink.com",
+          link: "https://minio.gleafink.com",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: MinioIcon,
@@ -130,7 +131,7 @@ export const data = {
       applications: [
         {
           name: "Data Platform Docs",
-          link: "docs.gleafink.com",
+          link: "https://docs.gleafink.com",
           description: "",
           url: "htts://metainsights.gleafink.com",
           icon: DocsIcon,

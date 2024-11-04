@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../assets/images/GleafinkLogo2.jpeg"
+import logo from "../assets/images/gleafink-name.png"
 import "../styles/topHeader.style.css"
 
 const TopHeader = () => {
@@ -10,7 +10,7 @@ const TopHeader = () => {
           <img
             src={logo}
             alt="Gleafink"
-            style={{ width: "100px", height: "46px" }}
+            style={{ width: "110px", height: "26px" }}
           />
         </div>
         <div>Gleafink Console</div>
