@@ -1,21 +1,17 @@
 import {
-  BookCheck,
-  Database,
-  Fan,
   Fingerprint,
-  Music3,
   PackagePlus,
   ScanEye,
   SquareChartGantt,
-  Vault,
 } from "lucide-react"
 
+import airflowIcon from "../assets/images/airflow.png"
 import ArangoDBIcon from "../assets/images/arangodb.svg"
 import DocsIcon from "../assets/images/docs.png"
-import airflowIcon from "../assets/images/airflow.png"
-import vaultIcon from "../assets/images/vault.svg"
-import MinioIcon from "../assets/images/minio.svg"
 import JarvisIcon from "../assets/images/jarvisbot.png"
+import MinioIcon from "../assets/images/minio.svg"
+import vaultIcon from "../assets/images/vault.svg"
+import AuthorizationIcon from "../assets/images/authorization.png"
 
 export const data = {
   categories: [
@@ -81,16 +77,18 @@ export const data = {
         {
           name: "Vault",
           link: "https://vault.gleafink.com",
-          description: "",
+          description:
+            "HashiCorp Vault is a secure tool for managing secrets, encryption keys, and access to sensitive data.",
           url: "htts://metainsights.gleafink.com",
           icon: vaultIcon,
         },
         {
           name: "Authoriation",
           link: "",
-          description: "",
+          description:
+            "The authorization module manages access control, ensuring users have the correct permissions for secure resource access.",
           url: "htts://metainsights.gleafink.com",
-          icon: <Fingerprint />,
+          icon: AuthorizationIcon,
         },
       ],
     },
@@ -100,7 +98,8 @@ export const data = {
         {
           name: "Airflow",
           link: "",
-          description: "",
+          description:
+            "Apache Airflow is an open-source platform for scheduling, orchestrating, and monitoring complex workflows.",
           url: "htts://metainsights.gleafink.com",
           icon: airflowIcon,
         },
@@ -112,14 +111,16 @@ export const data = {
         {
           name: "MinIo",
           link: "https://minio.gleafink.com",
-          description: "",
+          description:
+            "MinIO is a high-performance, open-source object storage solution compatible with the S3 API for managing unstructured data.",
           url: "htts://metainsights.gleafink.com",
           icon: MinioIcon,
         },
         {
           name: "ArangoDB",
           link: "",
-          description: "",
+          description:
+            "ArangoDB is a multi-model, open-source database that supports graph, document, and key-value data models for flexible data storage.",
           url: "htts://metainsights.gleafink.com",
           icon: ArangoDBIcon,
         },
@@ -132,7 +133,8 @@ export const data = {
         {
           name: "Data Platform Docs",
           link: "https://docs.gleafink.com",
-          description: "",
+          description:
+            "Product documentation provides comprehensive guides, references, and best practices to help users effectively utilize and troubleshoot products.",
           url: "htts://metainsights.gleafink.com",
           icon: DocsIcon,
         },
