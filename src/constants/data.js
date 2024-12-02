@@ -58,10 +58,10 @@ export const data = {
         },
         {
           name: "Superset",
-          link: "",
+          link: "https://superset.gleafink.com",
           description:
             "Apache Superset is an open-source data visualization and exploration platform designed for creating interactive dashboards and reports.",
-          url: "superset.gleafink.com",
+          url: "",
           icon: SupersetLogo,
         },
         {
