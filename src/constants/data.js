@@ -9,6 +9,7 @@ import airflowIcon from "../assets/images/airflow.png"
 import ArangoDBIcon from "../assets/images/arangodb.svg"
 import DocsIcon from "../assets/images/docs.png"
 import JarvisIcon from "../assets/images/jarvisbot.png"
+import SupersetLogo from "../assets/images/Superset_logo.svg.png"
 import MinioIcon from "../assets/images/minio.svg"
 import vaultIcon from "../assets/images/vault.svg"
 import AuthorizationIcon from "../assets/images/authorization.png"
@@ -54,6 +55,14 @@ export const data = {
             "Experience the power of dialogue with your data! Jarvis AI tool transforms complex queries into clear insights, simplifying decision-making!",
           url: "htts://metainsights.gleafink.com",
           icon: JarvisIcon,
+        },
+        {
+          name: "Superset",
+          link: "",
+          description:
+            "Apache Superset is an open-source data visualization and exploration platform designed for creating interactive dashboards and reports.",
+          url: "superset.gleafink.com",
+          icon: SupersetLogo,
         },
         {
           name: "A/B Testing",

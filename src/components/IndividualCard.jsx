@@ -16,7 +16,10 @@ const IndividualCard = ({ item }) => {
             <img
               src={item.icon}
               alt={item.name}
-              style={{ height: "40px", width: "40px" }}
+              style={{
+                height: `${item.name === "Superset" ? "35px" : "40px"}`,
+                width: `${item.name === "Superset" ? "90px" : "40px"}`,
+              }}
             />
           ) : (
             item.icon
