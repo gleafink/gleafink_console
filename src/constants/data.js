@@ -21,7 +21,7 @@ export const data = {
       applications: [
         {
           name: "Metalnsights",
-          link: "https://metainsights.gleafink.com/LandingPage",
+          link: "https://metainsights.gleafink.com/LandingPageScroll",
           description:
             "A unified 360° metadata tool, helps in transforming data discovery, streamline governance and collaboration to empower your team in making insightful, data-driven decisions.",
           url: "htts://metainsights.gleafink.com",
